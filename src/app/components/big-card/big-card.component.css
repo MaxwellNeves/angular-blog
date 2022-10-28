@@ -1,0 +1,30 @@
+.container__big-card{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+  width: 580px;
+  height: 700px;
+}
+
+.big-card__title > h1 {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.big-card__title > h1 > a:hover{
+  font-weight: bolder;
+  transition: all 2s;
+  color: rgb(196, 64, 64);
+}
+
+.big-card__description > p {
+  font-size: 24px;
+  text-align: justify;
+  padding: 25px;
+  color: rgb(112, 112, 112);;
+}
+
+.big-card__pic > img {
+  width: 100%;
+}
