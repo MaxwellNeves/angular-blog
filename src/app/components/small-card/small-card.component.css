@@ -1,11 +1,10 @@
 .container__small-card{
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   margin: 20px 0px;
-  width: 600px;
-  height: 100px;
+  width: 640px;
+  height: 132px;
 }
 
 .small-card__description > h1 {
@@ -16,6 +15,6 @@
 }
 
 .small-card__pic > img {
-  width: 200px;
+  width: 250px;
 
 }

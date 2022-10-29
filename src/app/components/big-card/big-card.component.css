@@ -7,7 +7,7 @@
 }
 
 .big-card__title > h1 {
-  font-size: 36px;
+  font-size: 24px;
   text-align: center;
   padding-top: 10px;
 }
@@ -19,7 +19,7 @@
 }
 
 .big-card__description > p {
-  font-size: 24px;
+  font-size: 28px;
   text-align: justify;
   padding: 25px;
   color: rgb(112, 112, 112);;
