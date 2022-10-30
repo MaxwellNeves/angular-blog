@@ -14,17 +14,22 @@
 
 .big-card__title > h1 > a:hover{
   font-weight: bolder;
-  transition: all 2s;
-  color: rgb(196, 64, 64);
+  transition: all 1s;
+  color: rgb(255, 255, 255);
 }
 
 .big-card__description > p {
   font-size: 28px;
   text-align: justify;
   padding: 25px;
-  color: rgb(112, 112, 112);;
+  color: rgb(112, 112, 112);
 }
 
-.big-card__pic > img {
+.big-card__pic > a > img {
   width: 100%;
+}
+.big-card__pic > a > img:hover {
+  width: 98%;
+  transition: all 1s;
+  color: rgb(255, 255, 255);
 }

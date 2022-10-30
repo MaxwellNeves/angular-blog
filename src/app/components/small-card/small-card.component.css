@@ -14,7 +14,11 @@
   margin: 20px;
 }
 
-.small-card__pic > img {
+.small-card__pic > a > img {
   width: 250px;
+}
+
+.small-card__pic > a > img:hover {
+  width: 260px;
 
 }
